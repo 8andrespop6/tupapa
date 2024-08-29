@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Document{% endblock %}</title>
+    <link rel="stylesheet" href="/static/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <nav class="menu">
+        <nav class="menu">
+       
+            <a href="{{ url_for('index') }}">Bibliografia</a><br>
+            <a href="{{ url_for('contacto') }}">Contacto</a><br>
+            <a href="{{ url_for('musica') }}">Mejores canciones</a><br>
+     
+         
+        </nav>
+        
+    </nav>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <div class="content">
+        {% block content %}{% endblock %}
+    </div>
+
+    <footer>
+      
+    </footer>
+</body>
+</html>

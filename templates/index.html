@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block title %}Bibliografia{% endblock %}
+
+{% block content %}
+    <section class="sesion1">
+        <article>
+            
+            <h1>Blessd</h1>
+            <p>
+               <h3>Stiven Mesa Londoño (27 de enero de 2000), más conocido como Blessd, es un rapero, freestyler y cantante colombiano, joven promesa de la música urbana. 
+                Empleado en La Mayoritaria y vendedor de dulces, Blessd comenzó su carrera en 2019 luego de unirse a la disquera JM World Music. Desde entonces ha lanzado temas como Mala Fama, el hit viral Una, Viernes social y Niña con los que se ha posicionado entre lo nuevo de la música. 
+                El éxito le llegó, sin embargo, en 2021 con los lanzamientos de Lejanía y el remix de Imposible junto con Maluma. También ha colaborado con artistas como Amaro & Dani, Magneto, Kensel Tell Them y Sebas R.
+            </p>
+        </h3> 
+            <nav>
+                <div class="social-icons">
+                    <a href="https://wa.me/+573188582921" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="https://www.youtube.com/c/Blessd" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                    <a href="https://www.facebook.com/BlessdOficial/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com/blessd/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+            </nav>
+            <a href="{{ url_for('vermas') }}">Ver Más</a>
+        </article>
+        <article>
+            <img src="/static/images/descarga.webp" alt="" width="400px" height="300px">
+        </article>
+    </section>
+{% endblock %}
